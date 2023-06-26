@@ -74,3 +74,12 @@ button:hover{
   color: white;
   background-color: var(--black);
 }
+.blue-txt{
+  color: var(--blue);
+}
+.orange-txt{
+  color: var(--orange);
+}
+.white-txt{
+  color: white;
+}
