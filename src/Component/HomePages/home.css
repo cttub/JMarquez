@@ -6,6 +6,7 @@
     position: relative;
     background: url('../../Assets/Images/Landing.png');
     background-size: cover;
+    background-attachment: fixed;
 }
 #landing > section > div{
     height: 500px;
@@ -66,6 +67,7 @@
   height: 100vh;
   background-image: url('../../Assets/Legacy/1.JPG');
   background-size: cover;
+  background-attachment: fixed;
 }
 .get-things-done{
   display: flex;
@@ -81,6 +83,7 @@
 }
 .link-logo > img{
   top: 10px;
+  left: 10px;
   z-index: 999;
   position: absolute;
   transition: ease-in-out .2s;
