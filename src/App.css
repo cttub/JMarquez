@@ -23,6 +23,7 @@ smalltxt{
 }
 a{
   color: var(--black) !important;
+  text-decoration: none !important;
 }
 a.navLink{
   color: var(--black) !important;
@@ -37,7 +38,7 @@ a.navLink::before {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: var(--black);
+  background-color: white;
   transition: width 0.3s ease-in-out;
 }
 
@@ -77,6 +78,18 @@ button:hover{
   color: var(--orange);
   background-color: white;
   border: solid var(--orange) 2px;
+}
+.blue-btn{
+  color: white;
+  border: solid var(--blue) 2px !important;
+  background-color: var(--blue);
+  border: var(--blue);
+  transition: ease-in-out .3s;
+}
+.blue-btn:hover{
+  color: var(--blue);
+  background-color: white;
+  border: solid var(--blue) 2px;
 }
 .white-btn{
   color: var(--black);

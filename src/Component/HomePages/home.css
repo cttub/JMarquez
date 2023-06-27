@@ -10,13 +10,17 @@
 #landing > section > div{
     height: 500px;
 }
+#landing > section > button{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 999;
+}
 
 #landing > section > div.info{
-    
     display: flex;
     align-items: center;
     translate: -50px;
-    
 }
 #landing > section > div.info > div{
     border-left: solid var(--black) 2px;
@@ -56,4 +60,31 @@
     #landing > section > div.img {
        display: none;
     }
+}
+/*Project*/
+#project-section > section{
+  height: 100vh;
+  background-image: url('../../Assets/Legacy/1.JPG');
+  background-size: cover;
+}
+.get-things-done{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: white;
+  height: 100%;
+}
+.get-things-done > div{
+  padding: 10px;
+  border-left: solid var(--black) 2px;
+}
+.link-logo > img{
+  top: 10px;
+  z-index: 999;
+  position: absolute;
+  transition: ease-in-out .2s;
+}
+.link-logo > img:hover{
+  transform: scale(1.05);
 }
