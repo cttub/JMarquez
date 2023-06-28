@@ -21,14 +21,14 @@ class Landing extends Component {
                         <img className='shadow' width={"100%"} src={lilyImg}/>
                         <p>Lily’s Play N Stay</p>
                     </div>
-                    <div className='info box-shadow col-lg-6'>
+                    <Fade duration ={1400}><div className='info col-lg-6'>
                         <div>
                             <topHeading className ="blue-txt">Redefining construction, reimagining spaces.</topHeading>
                             <heading>Marquez Construction Inc</heading>
                             <p>Transforming your ideas into reality, our construction team is dedicated to exceeding your aspirations.</p>
                             <button className='orange-btn'>Contact Us</button>
                         </div>
-                    </div>
+                    </div></Fade>
                     
                    <button className='blue-btn'>Call Us</button>
 

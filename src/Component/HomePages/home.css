@@ -7,7 +7,7 @@
     background: url('../../Assets/Images/Landing.png');
     background-size: cover;
     background-attachment: fixed;
-}
+    background-position: center;}
 #landing > section > div{
     height: 500px;
 }
@@ -19,6 +19,9 @@
 }
 
 #landing > section > div.info{
+    padding: 50px 20px;
+    background: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);  
     display: flex;
     align-items: center;
     translate: -50px;
@@ -62,6 +65,13 @@
        display: none;
     }
 }
+@media only screen and (max-width: 497px){
+  #landing > section > div.info{
+    background: transparent;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.0);  
+}
+
+}
 /*Project*/
 #project-section > section{
   height: 100vh;
@@ -90,4 +100,93 @@
 }
 .link-logo > img:hover{
   transform: scale(1.05);
+}
+/*Reviews*/
+#reviews{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+  color: white;
+  background: var(--black);
+}
+@media only screen and (max-width: 767px){
+  #reviews{
+    padding: 100px 30px;
+  }
+}
+/*What We Do*/
+#what-we-do{
+   padding: 100px;
+   height: 100vh;
+}
+#what-we-do > section > heading{
+  text-align: center;
+}
+.service-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service-container > .container{
+   text-align: center;
+}
+.service-container > .container > topheading{
+  margin-bottom: 10px;
+}
+.residential > .icon, .contracting > .icon, .commercial > .icon{
+  margin: auto;
+  margin-bottom: 20px;
+  height: 250px;
+  width: 250px;
+}
+.residential > .icon{
+  background: url('../../Assets/Icon/residential.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contracting > .icon{
+  background: url('../../Assets/Icon/contract.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.commercial > .icon{
+  background: url('../../Assets/Icon/commercial.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.services-cta{
+  margin: auto;
+}
+@media only screen and (max-width: 1307px){
+  .service-container{
+    display: block;
+  }
+  #what-we-do{
+    padding: 50px 0px;
+
+    height: auto;
+ }
+ .service-container > .container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  .residential > .icon, .contracting > .icon, .commercial > .icon{
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 991px){
+  .service-container > .container{
+    display: block;
+  }
+  .residential > .icon, .contracting > .icon, .commercial > .icon{
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+  }
 }

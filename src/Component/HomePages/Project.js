@@ -7,7 +7,7 @@ class Project extends Component {
         return (
             <div id='project-section'>
                 <section>
-                    <Fade left duration = {1400}><div className='col-lg-6 col-md-9 get-things-done'>
+                    <Fade left duration = {1400}><div className='col-lg-6 col-md-9 col-sm-10 get-things-done'>
                         <div>
                             <topheading className = "orange-txt">Building your vision, exceeding your expectations</topheading>
                             <heading style = {{marginBottom: "20px"}}>We get things done right</heading>
