@@ -8,29 +8,25 @@ class LandingNav extends Component {
             <div id='landing-navigation' style={{position: "absolute", zIndex: "9999"}}>
                
                <div>
-            
-                
                         <div className='bar'>    
                             <Link className='link-logo navLink'
                                                     onClick={() => {
                                                                 document.querySelector("html").scrollTo(0,0);
                                                                 }}
-                                                    to = "/"> Services
+                                                    to = "/Services"> Services
                             </Link>
-                            <Link className='link-logo navLink'
+                            <Link className='navLink'
                                                     onClick={() => {
                                                                 document.querySelector("html").scrollTo(0,0);
                                                                 }}
-                                                    to = "/"> Projects
+                                                    to = "/Projects"> Projects
                             </Link>
-                            <Link className='link-logo navLink'
+                            <Link className='navLink'
                                                     onClick={() => {
                                                                 document.querySelector("html").scrollTo(0,0);
                                                                 }}
-                                                    to = "/"> Contact
+                                                    to = "/Contact"> Contact
                             </Link>
-
-
                         </div>
                     </div>
     

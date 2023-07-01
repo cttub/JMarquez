@@ -1,0 +1,10 @@
+.project-banner{
+    background: url('../../Assets/Images/Project.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 80px;
+}
+.project-banner > div > a{
+    margin-top: 20px; 
+}

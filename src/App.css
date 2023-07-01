@@ -32,7 +32,7 @@ a.navLink{
   position: relative;
 }
 
-a.navLink::before {
+a.navLink:not(.logo)::before{
   content: "";
   position: absolute;
   bottom: -2px;
@@ -110,17 +110,7 @@ button:hover, #ff-submit-root:hover{
 .white-txt{
   color: white;
 }
-.bg-opaque::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-size: cover;
-  opacity: 0.3; 
-  background-color: rgba(255, 255, 255, 0.5); 
-}
+
 .box-shadow{
   height: auto;
   width: auto;
@@ -135,9 +125,7 @@ button:hover, #ff-submit-root:hover{
   font-family: 'Montserrat', sans-serif;
   background: transparent;
 }
-#ff-compose{
-  z-index: 300;
-}
+
 #form{
    display: flex;
    align-items: center;

@@ -5,6 +5,8 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 import Homepage from './Component/Homepage';
 import Layout from './Component/Navigation/Layout';
 import Services from './Component/Services';
+import Projects from './Component/Projects';
+
 function App() {
   return (
     <HashRouter>
@@ -12,6 +14,7 @@ function App() {
           <Route path="/" element={<Layout/>}>
           <Route index element={<Homepage/>} />
           <Route path="Services" element={<Services/>} />
+          <Route path="Projects" element={<Projects/>} />
 
           </Route>
       </Routes>

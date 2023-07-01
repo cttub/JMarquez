@@ -16,6 +16,7 @@
   bottom: 10px;
   right: 10px;
   z-index: 999;
+  
 }
 
 #landing > section > div.info{
@@ -77,6 +78,7 @@
   height: 100vh;
   background-image: url('../../Assets/Legacy/1.JPG');
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
 .get-things-done{
@@ -130,13 +132,13 @@
 }
 .service-container > .container{
    text-align: center;
+   margin-bottom: 10px;
 }
 .service-container > .container > topheading{
   margin-bottom: 10px;
 }
 .residential > .icon, .contracting > .icon, .commercial > .icon{
   margin: auto;
-  margin-bottom: 20px;
   height: 250px;
   width: 250px;
 }
@@ -160,6 +162,16 @@
 }
 .services-cta{
   margin: auto;
+}
+
+@media only screen and (max-width: 991px){
+  #ff-compose{
+    background: rgba(255, 255, 255, 0.80);
+    height: 100%;
+    padding: 40px 10px;
+
+  }
+
 }
 @media only screen and (max-width: 1307px){
   .service-container{

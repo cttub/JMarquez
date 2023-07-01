@@ -1,0 +1,181 @@
+.service-banner{
+    background: url('../../Assets/Images/Service.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 80px;
+}
+.service-banner > div > a{
+    margin-top: 20px; 
+}
+.breadcrumbs{
+    margin-left: 100px;
+}
+.service-cards{
+    padding: 100px;
+}
+.service-block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    border: 1px solid var(--black, #292929);
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.service-block > .service-desc{
+    padding: 50px;
+}
+.service-block.construction{
+    background: url('../../Assets/Images/Services/Construction.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service-block.remodel, .service-block.tennet{
+    justify-content: end;
+}
+.service-block.remodel{
+    background: url('../../Assets/Images/Services/Remodel.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service-block.additions{
+    background: url('../../Assets/Images/Services/Addition.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service-block.tennet{
+    background: url('../../Assets/Images/Services/Tennet\ Finish.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 1310px){
+    .service-desc{
+        width: 70%;
+    }
+
+}
+
+@media only screen and (max-width: 991px){
+    .service-block.remodel, .service-block.construction, .service-block.additions{
+        background:none;
+    }
+    .service-desc{
+        width: 100%;
+    }
+}
+.other-services{
+    padding: 100px;
+}
+
+.service-navigation > .mini-nav-service > ul > li{
+    margin-bottom: 20px;
+}
+.service-navigation > .mini-nav-service > ul > li:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.service-navigation > .mini-nav-service > ul > li > a.active {
+    color: var(--blue);
+}
+.service-navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.other-blocks{
+    border: 1px solid var(--black, #292929);
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.service-boxes{
+    height: 650px;
+    overflow: auto;
+}
+.service-boxes {
+    
+    overflow-y: scroll;
+    max-height: 650px; /* Adjust the max-height as per your requirement */
+  
+    /* Scrollbar Styles */
+    scrollbar-width: thin; /* "auto" for default scrollbar width */
+    scrollbar-color: var(--black)  #F4F4F4; /* Change the colors as needed */
+  
+    /* For Firefox */
+    scrollbar-width: thin;
+    scrollbar-color: var(--black) transparent;
+  }
+  
+  .service-boxes::-webkit-scrollbar {
+    width: 6px; 
+  }
+  
+  .service-boxes::-webkit-scrollbar-track {
+    background-color: #F4F4F4; 
+  }
+  
+  .service-boxes::-webkit-scrollbar-thumb {
+    background-color: var(--black) ; /* Change the thumb color */
+    border-radius: 3px;
+  }
+
+
+.other-blocks{
+    margin-bottom: 50px;
+}
+.other-blocks > .heading{
+    height: 250px;
+}
+div.description > p{
+    padding-top: 20px;
+    border-top: solid var(--black) 2px;
+}
+.other-blocks.framing > .heading{
+    background: url('../../Assets/Images/Services/Other/Framework.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.other-blocks.drywall > .heading{
+    background: url('../../Assets/Images/Services/Other/Drywall.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.other-blocks.painting > .heading{
+    background: url('../../Assets/Images/Services/Other/Painting.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.other-blocks.concrete > .heading{
+    background: url('../../Assets/Images/Services/Other/Concrete.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.other-blocks.demolition > .heading{
+    background: url('../../Assets/Images/Services/Other/Demolition.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.other-blocks.ironwork > .heading{
+    background: url('../../Assets/Images/Services/Other/Welding.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.other-blocks.ceiling > .heading{
+    background: url('../../Assets/Images/Services/Other/Ceiling.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.other-blocks.woodwork > .heading{
+    background: url('../../Assets/Images/Services/Other/Woodwork.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.other-blocks > .description{
+    padding: 60px 30px;
+}

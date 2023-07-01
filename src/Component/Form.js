@@ -13,7 +13,7 @@ class Form extends Component {
   render() {
     return (
         <div id='form'> 
-            <div id="ff-compose" className='col-lg-6'>   
+            <div id="ff-compose" className='col-lg-6 col-md-12 col-sm-12'>   
             </div>
 
         </div>
