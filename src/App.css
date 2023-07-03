@@ -7,15 +7,15 @@
 }
 
 
-heading, p, subtitle, topheading, button, smalltxt{
+h1, p, subtitle, h2, button, smalltxt{
    color: var(--black);
    display: block;
 }
-topheading{ 
-  font-size: 23px;
+h2{ 
+  font-size: 23px !important;
   font-family: 'Montserrat Alternates', sans-serif;
 }
-heading, p, subtitle, button, a, smalltxt, .ff-secfields{
+h1, p, subtitle, button, a, smalltxt, .ff-secfields{
   font-family: 'Montserrat', sans-serif;
 }
 smalltxt{
@@ -47,7 +47,7 @@ a.navLink:hover::before {
   width: 100%;
 }
 
-heading{
+h1{
    font-size: 50px;
 }
 subtitle{
@@ -126,7 +126,7 @@ button:hover, #ff-submit-root:hover{
   background: transparent;
 }
 
-#form{
+#form, #contact-us{
    display: flex;
    align-items: center;
    background: url('./Assets/Images/Contact_Abstract.png');
@@ -152,11 +152,13 @@ button:hover, #ff-submit-root:hover{
   display: inline-block;
   
 }
+
 #ff-id-653772181{
   width: 45%;
   display: inline-block;
   margin-left: 20px;
 }
+
 #ff-submit-root > img{
   display: none;
 }
@@ -177,7 +179,7 @@ button:hover, #ff-submit-root:hover{
 
 }
 @media only screen and (max-width: 461px){
-  heading,#ff-desc-root > p{
+  h1,#ff-desc-root > p{
     font-size: 32px !important;
   }
 

@@ -23,7 +23,7 @@ class Services extends Component {
                         </span>{" "}
                         Services
                     </p>
-                   <topheading>General Contracting, Residential or Commercial Properties</topheading>
+                   <h2>General Contracting, Residential or Commercial Properties</h2>
 
                 </div>
 

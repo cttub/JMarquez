@@ -71,6 +71,11 @@
     background: transparent;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.0);  
 }
+#landing > section > div.info{
+  width: 100%;
+  margin-left: 20px;
+
+}
 
 }
 /*Project*/
@@ -122,7 +127,7 @@
    padding: 100px;
    height: 100vh;
 }
-#what-we-do > section > heading{
+#what-we-do > section > h1{
   text-align: center;
 }
 .service-container{
@@ -134,7 +139,7 @@
    text-align: center;
    margin-bottom: 10px;
 }
-.service-container > .container > topheading{
+.service-container > .container > h2{
   margin-bottom: 10px;
 }
 .residential > .icon, .contracting > .icon, .commercial > .icon{
@@ -162,6 +167,7 @@
 }
 .services-cta{
   margin: auto;
+
 }
 
 @media only screen and (max-width: 991px){

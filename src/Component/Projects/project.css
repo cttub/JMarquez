@@ -1,3 +1,6 @@
+.project-body{
+    padding: 100px;
+}
 .project-banner{
     background: url('../../Assets/Images/Project.png');
     background-repeat: no-repeat;
@@ -5,6 +8,83 @@
     background-attachment: fixed;
     padding: 200px 80px;
 }
+@media only screen and (max-width:488px){
+    .project-banner{
+        padding: 100px 20px;
+        background: url('../../Assets/Images/Project.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: static;
+    }
+}
+
+
 .project-banner > div > a{
     margin-top: 20px; 
+}
+#project-gallery{
+    display: inline-block;
+    width: 47%;
+    border: solid;
+}
+.project-row{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.project-card{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.project-card > div{
+    width: 90%;
+}
+.project-card > div > img{
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+.project-card::-webkit-scrollbar {
+    width: 6px; 
+}
+  
+.project-card::-webkit-scrollbar-track {
+    background-color: #F4F4F4; 
+}
+  
+.project-card::-webkit-scrollbar-thumb {
+    background-color: var(--black) ; /* Change the thumb color */
+    border-radius: 3px;
+}
+
+.bottom-title{
+    padding: 26px 15px;
+    background-color: var(--black);
+}
+.bottom-title > .title {
+    font-size: 30px !important;
+}
+.bottom-title > p{
+    color: white;
+}
+@media only screen and (max-width: 1256px) {
+    .project-row{
+        display: block;
+        margin-bottom: 0px;
+    }
+    #project-gallery{
+        display: block;
+        width: 100%;
+       margin-bottom: 20px;
+    }
+    .project-body{
+        padding: 50px;
+    }
+    
 }

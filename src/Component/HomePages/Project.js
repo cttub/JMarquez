@@ -9,8 +9,8 @@ class Project extends Component {
                 <section>
                     <Fade left duration = {1400}><div className='col-lg-6 col-md-9 col-sm-10 get-things-done'>
                         <div>
-                            <topheading className = "orange-txt">Building your vision, exceeding your expectations</topheading>
-                            <heading style = {{marginBottom: "20px"}}>We get things done right</heading>
+                            <h2 className = "orange-txt">Building your vision, exceeding your expectations</h2>
+                            <h1 style = {{marginBottom: "20px"}}>We get things done right</h1>
                             <p style = {{marginBottom: "20px"}}>From concept to completion, we bring your vision to life with unwavering craftsmanship. 
                                 With a meticulous approach that begins with thorough planning and design, we carefully interpret your ideas and aspirations, translating them into tangible structures that exceed expectations. </p>
                                
@@ -18,7 +18,7 @@ class Project extends Component {
                                             onClick={() => {
                                                         document.querySelector("html").scrollTo(0,0);
                                                         }}
-                                            to = "/"> <button className='white-btn'>See Our Projects</button>
+                                            to = "/Projects"> <button className='white-btn'>See Our Projects</button>
                                 </Link>
                         </div>
                         

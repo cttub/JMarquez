@@ -9,7 +9,7 @@
     margin-top: 20px; 
 }
 .breadcrumbs{
-    margin-left: 100px;
+    margin: 0px 100px;
 }
 .service-cards{
     padding: 100px;
@@ -58,16 +58,27 @@
     .service-desc{
         width: 70%;
     }
-
 }
 
 @media only screen and (max-width: 991px){
-    .service-block.remodel, .service-block.construction, .service-block.additions{
+    .service-block.remodel, .service-block.construction, .service-block.additions, .service-block.tennet{
         background:none;
     }
     .service-desc{
         width: 100%;
     }
+}
+@media only screen and (max-width: 621px){
+    .service-banner{
+        padding: 200px 20px;
+    }
+    .service-desc  > p,.other-blocks >  .description > p{
+        font-size: 18px !important;
+    }
+    .service-block > .service-desc{
+        padding: 30px;
+    }
+
 }
 .other-services{
     padding: 100px;
@@ -94,15 +105,12 @@
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.service-boxes{
-    height: 650px;
-    overflow: auto;
+a.active{
+    font-weight: bold;
+    text-decoration: underline !important;
+    color: var(--blue) !important;
 }
 .service-boxes {
-    
-    overflow-y: scroll;
-    max-height: 650px; /* Adjust the max-height as per your requirement */
-  
     /* Scrollbar Styles */
     scrollbar-width: thin; /* "auto" for default scrollbar width */
     scrollbar-color: var(--black)  #F4F4F4; /* Change the colors as needed */
@@ -171,11 +179,50 @@ div.description > p{
     background-size: cover;
     background-position: center;
 }
-.other-blocks.woodwork > .heading{
+.other-blocks.woodwork > .heading, .heading-img.woodwork{
     background: url('../../Assets/Images/Services/Other/Woodwork.jpg');
     background-size: cover;
     background-position: center;
 }
 .other-blocks > .description{
     padding: 60px 30px;
+}
+.hidden {
+    display: none;
+  }
+
+.other-blocks.hidden {
+    display: none;
+}
+  
+.other-blocks.active {
+    display: block;
+}
+.smaller-device{
+    display: none;
+}
+  
+@media only screen and (max-width: 1078px){
+    .other-services.desktop > section > .service-navigation {
+        display: none;
+    }
+    .smaller-device{
+        display: block;
+    }
+    .smaller-device{
+        height: 200px;
+
+    }
+}
+@media only screen and (max-width: 689px){
+    .service-cards{
+        padding: 30px;
+    }
+    .breadcrumbs{
+        margin: 0px 30px;
+    }
+    .other-services{
+        padding: 30px;
+    }
+
 }

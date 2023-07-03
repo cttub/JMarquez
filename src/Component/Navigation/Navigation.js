@@ -14,7 +14,7 @@ class Navigation extends Component {
                                                                 onClick={() => {
                                                                             document.querySelector("html").scrollTo(0,0);
                                                                             }}
-                                                                to = "/"> <img width={"100px"} src={logo}/>
+                                                                to = "/"> <img width={"70px"} src={logo}/>
                                         </Link>
 
                                         <Link className='navLink'

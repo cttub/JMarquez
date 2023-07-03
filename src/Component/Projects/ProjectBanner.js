@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import './service.css';
+import './project.css';
 import {Link} from 'react-router-dom';
-class ServiceBanner extends Component {
+class ProjectBanner extends Component {
     state = {  } 
     render() { 
         return (
-            <div className='service-banner'>
+            <div className='project-banner'>
                 <div className='col-lg-6'>
-                    <h2 className = "orange-txt">See our Services</h2>
-                    <h1>Redefining construction</h1>
-                    <p>Our construction company offers a wide range of services to cater to your specific needs. From new construction projects that bring your vision to life with unwavering craftsmanship to remodeling services 
-                        that breathe new life into outdated structures, we excel in creating exceptional spaces.</p>
+                    <h2 className = "orange-txt">See our Projects</h2>
+                    <h1>Quality craftsmanship that inspires.</h1>
+                    <p>Explore a captivating showcase of our completed works, each embodying our commitment to quality, innovation, and superior craftsmanship. 
+                        Immerse yourself in the stunning visuals that highlight our expertise in transforming ideas into reality. </p>
                         
-                        <Link 
+                        <Link
                                                                 onClick={() => {
                                                                             document.querySelector("html").scrollTo(0,0);
                                                                             }}
@@ -21,10 +21,9 @@ class ServiceBanner extends Component {
 
                 </div>
 
-            </div>
-
+        </div>
         );
     }
 }
  
-export default ServiceBanner;
+export default ProjectBanner;
