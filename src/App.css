@@ -182,10 +182,17 @@ button:hover, #ff-submit-root:hover{
    p{
     font-size: 20px !important;
   }
+  #services > div.breadcrumbs > p > span > a, #project > div.project-body > p > span > a{
+    font-size: 20px !important;
+
+  }
 }
 @media only screen and (max-width: 461px){
   h1,#ff-desc-root > p{
-    font-size: 40px !important;
+    font-size: 30px !important;
+  }
+  h2{
+    font-size: 18px !important;
   }
 }
 
@@ -201,7 +208,6 @@ button:hover, #ff-submit-root:hover{
   font-size: 17px !important;
 }
 #privacy, #terms{
-
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.77) 0%, rgba(255, 255, 255, 0.77) 100%),  url('./Assets/Images/projectBody.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -212,4 +218,15 @@ button:hover, #ff-submit-root:hover{
   #footer{
     padding-bottom: 100px !important;
   }
+}
+.facebook {
+  margin: auto;
+  margin-top: 15px;
+}
+.facebook > a{
+  
+  color: white !important;
+}
+.facebook > a:hover{
+  color: var(--black) !important;
 }

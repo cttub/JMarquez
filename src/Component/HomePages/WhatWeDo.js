@@ -23,7 +23,7 @@ class WhatWeDo extends Component {
                                 <div className='txt'>
                                     <h2>General Contracting</h2>
                                     <smalltxt>With a commitment to quality, efficiency, and customer satisfaction, 
-                                        we ensure a smooth and successful construction process from start to finish</smalltxt>
+                                        we ensure a smooth and successful construction process from start to finish.</smalltxt>
                                 </div>
                             </div></Fade>
                             <Fade duration = {3500}><div className='commercial col-lg-3 container'>

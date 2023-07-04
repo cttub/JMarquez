@@ -34,6 +34,12 @@ class Projects extends Component {
                     </div>
                     <div className='project-row'>
                         <Buenissimo/>
+                        <div style={{display: "flex", alignItems: "center", justifyContent: "center", padding: "50px"}}>
+                            <div>
+                                <h1>Want to see more of our Projects?</h1>
+                                <button className='facebook'><a href='https://www.facebook.com/MqzConst' target='_blank'>Visit our Facebook</a></button>
+                            </div>
+                        </div>
 
                     </div>
                 

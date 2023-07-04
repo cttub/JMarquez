@@ -23,7 +23,7 @@ class Landing extends Component {
                     </div>
                     <Fade duration ={1400}><div className='info col-lg-6'>
                         <div>
-                            <h2 className ="blue-txt">Redefining construction, reimagining spaces.</h2>
+                            <h2 className ="blue-txt">Redefining construction, reimagining spaces</h2>
                             <h1>Marquez Construction Inc</h1>
                             <p>Transforming your ideas into reality, our construction team is dedicated to exceeding your aspirations.</p>
                             <Link 

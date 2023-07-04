@@ -13,7 +13,7 @@ class Footer extends Component {
                                                                             }}
                                                                 to = "/TermsOfUse"> Terms of Use
                  </Link>
-                 <img width={"100px"} src={logo}/>
+                 <a href='#'><img width={"100px"} src={logo}/></a>
                  <Link 
                                                                 onClick={() => {
                                                                             document.querySelector("html").scrollTo(0,0);
