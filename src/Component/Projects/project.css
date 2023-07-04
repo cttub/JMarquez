@@ -1,4 +1,8 @@
 .project-body{
+    background: url('../../Assets/Images/projectBody.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     padding: 100px;
 }
 .project-banner{
@@ -19,14 +23,31 @@
     }
 }
 
-
+.arrow-button{
+    box-shadow: none;
+}
+.arrow-button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 10;
+    margin: 10px;
+    color: inherit;
+  }
+  
+  .arrow-button:hover {
+    color: white;
+    background: transparent;
+  }
+  
 .project-banner > div > a{
     margin-top: 20px; 
 }
 #project-gallery{
     display: inline-block;
+    background: rgba(255, 255, 255, 0.59);
     width: 47%;
-    border: solid;
+    border: solid var(--black);
 }
 .project-row{
     margin-bottom: 20px;
@@ -35,6 +56,7 @@
     justify-content: space-between;
 }
 .project-card{
+    position: relative;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -63,15 +85,49 @@
     border-radius: 3px;
 }
 
-.bottom-title{
+.bottom-title, .top-title{
     padding: 26px 15px;
     background-color: var(--black);
 }
-.bottom-title > .title {
+.bottom-title > .title, .top-title > .title {
     font-size: 30px !important;
 }
-.bottom-title > p{
+.bottom-title > p, .top-title > p{
     color: white;
+}
+.top-title{
+    display: none;
+}
+.scroll-in-box{
+    display: none;
+}
+@media only screen and (max-width: 785px) {
+    .scroll-in-box{
+        color: white;
+        background-color: var(--black);
+        padding: 10px;
+        z-index: 2;
+        font-weight: bold;
+        top: 5px;
+        right: 0px;
+        position: absolute;
+        display: block;
+    }
+    .top-title{
+        display: block;
+    }
+    .bottom-title{
+        display: none;
+    }
+    .project-body{
+        padding: 10px !important;
+    }
+    .bottom-title > .title, .top-title > .title {
+        font-size: 25px !important;
+    }
+    .project-card{
+        padding: 0px;
+    }
 }
 @media only screen and (max-width: 1256px) {
     .project-row{
@@ -81,7 +137,7 @@
     #project-gallery{
         display: block;
         width: 100%;
-       margin-bottom: 20px;
+        margin-bottom: 20px;
     }
     .project-body{
         padding: 50px;

@@ -4,6 +4,7 @@ import Project from './HomePages/Project';
 import Reviews from './HomePages/Reviews';
 import WhatWeDo from './HomePages/WhatWeDo';
 import Form from './Form';
+import Footer from './Footer';
 class Homepage extends Component {
     state = {  } 
     render() { 
@@ -14,6 +15,7 @@ class Homepage extends Component {
                 <Reviews/>
                 <WhatWeDo/>
                 <Form/>
+                <Footer/>
               
             </div>
 

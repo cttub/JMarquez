@@ -49,9 +49,10 @@
    
   }
 .navLink.mobile{
-    font-size: 50px !important;
+    font-size: 30px !important;
     background-color: var(--black);
     display: block;
+    padding: 10px;
     color: white !important;
 }
 /* nav.css */
@@ -63,7 +64,7 @@
     z-index: 999;
     cursor: pointer;
   }
-  
+
   .close-button {
     color: white;
     position: absolute;

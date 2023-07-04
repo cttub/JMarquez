@@ -10,7 +10,10 @@ class Buenissimo extends Component {
     render() { 
         return (
             <div id='project-gallery'>
-
+                <div className='top-title'>
+                    <p className='title'>Buenissimo Paleteria Vi-Vi</p>
+                    <p>1303 Platte Falls Rd C, Platte City, MO 64079</p>
+                </div>
                 <div className='project-card'>
                     <div>
                         <Fade>
@@ -24,7 +27,7 @@ class Buenissimo extends Component {
                 </div>
                 <div className='bottom-title'>
                     <p className='title'>Buenissimo Paleteria Vi-Vi</p>
-                    <p>Short Description</p>
+                    <p>1303 Platte Falls Rd C, Platte City, MO 64079</p>
                 </div>
 
             </div>

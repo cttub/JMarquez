@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-
+import Footer from '../Footer';
 class OtherServices extends Component {
   constructor(props) {
     super(props);
@@ -94,6 +94,7 @@ class OtherServices extends Component {
                   </div>
               </section>
         </section>
+        
       </div>
     );
   }

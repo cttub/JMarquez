@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './contact.css';
+import Footer from './Footer';
 class Contact extends Component {
     componentDidMount() {
         var script = document.createElement("script");
@@ -12,11 +13,14 @@ class Contact extends Component {
     state = {  } 
     render() { 
         return (
+            <>
             <div id='contact-us'>
                  <div id="ff-compose" className='col-lg-6 col-md-12 col-sm-12'>   
                 </div>
 
             </div>
+            <Footer/>
+            </>
         );
     }
 }

@@ -15,7 +15,7 @@ h2{
   font-size: 23px !important;
   font-family: 'Montserrat Alternates', sans-serif;
 }
-h1, p, subtitle, button, a, smalltxt, .ff-secfields{
+h1, p, subtitle, button, a, smalltxt, .ff-secfields, ul{
   font-family: 'Montserrat', sans-serif;
 }
 smalltxt{
@@ -53,7 +53,7 @@ h1{
 subtitle{
   font-size: 42px;
 }
-p, button, a{
+p, button, a, ul{
   font-size: 25px !important;
 }
 button, #ff-submit-root{
@@ -178,9 +178,38 @@ button:hover, #ff-submit-root:hover{
   }
 
 }
+@media only screen and (max-width: 744px){
+   p{
+    font-size: 20px !important;
+  }
+}
 @media only screen and (max-width: 461px){
   h1,#ff-desc-root > p{
-    font-size: 32px !important;
+    font-size: 40px !important;
   }
+}
 
+#footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--black);
+  padding: 10px;
+}
+#footer > a{
+  color: white !important;
+  font-size: 17px !important;
+}
+#privacy, #terms{
+
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.77) 0%, rgba(255, 255, 255, 0.77) 100%),  url('./Assets/Images/projectBody.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px;
+}
+@media only screen and (max-width: 633px){
+  #footer{
+    padding-bottom: 100px !important;
+  }
 }

@@ -208,9 +208,10 @@ div.description > p{
     }
     .smaller-device{
         display: block;
+        height: auto;
     }
     .smaller-device{
-        height: 200px;
+        height: auto;
 
     }
 }
@@ -225,4 +226,10 @@ div.description > p{
         padding: 30px;
     }
 
+}
+.backToTopButton{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 30px;
 }

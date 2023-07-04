@@ -117,9 +117,23 @@
   color: white;
   background: var(--black);
 }
+
 @media only screen and (max-width: 767px){
   #reviews{
-    padding: 100px 30px;
+    padding: 100px 0px;
+  }
+  #project-section > section{
+    background-image: url('../../Assets/Images/Abstract_Building.png');
+    background-color: var(--black);
+  }
+  
+}
+@media only screen and (max-width: 502px){
+  #reviews > section > p{
+    font-size: 20px !important;
+  }
+  .arrow-button{
+    padding: 5px;
   }
 }
 /*What We Do*/
@@ -148,19 +162,19 @@
   width: 250px;
 }
 .residential > .icon{
-  background: url('../../Assets/Icon/residential.svg');
+  background: url('../../Assets/Icon/residential.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 .contracting > .icon{
-  background: url('../../Assets/Icon/contract.svg');
+  background: url('../../Assets/Icon/contract.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 .commercial > .icon{
-  background: url('../../Assets/Icon/commercial.svg');
+  background: url('../../Assets/Icon/commercial.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -185,7 +199,6 @@
   }
   #what-we-do{
     padding: 50px 0px;
-
     height: auto;
  }
  .service-container > .container{
@@ -200,10 +213,14 @@
 }
 @media only screen and (max-width: 991px){
   .service-container > .container{
+    margin-top: 50px;
     display: block;
   }
+  .service-container > .container > .txt > h2, .service-container > .container > .txt > smalltxt{
+    text-align: center;
+  }
   .residential > .icon, .contracting > .icon, .commercial > .icon{
-    margin: 0px;
+    margin: auto;
     width: 100px;
     height: 100px;
   }

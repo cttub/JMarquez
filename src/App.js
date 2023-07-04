@@ -7,7 +7,8 @@ import Layout from './Component/Navigation/Layout';
 import Services from './Component/Services';
 import Projects from './Component/Projects';
 import Contact from './Component/Contact';
-
+import Privacy from './Component/Privacy';
+import Terms from './Component/Terms';
 function App() {
   return (
     <HashRouter>
@@ -17,6 +18,8 @@ function App() {
           <Route path="Services" element={<Services/>} />
           <Route path="Projects" element={<Projects/>} />
           <Route path="Contact" element={<Contact/>} />
+          <Route path="TermsOfUse" element={<Terms/>} />
+          <Route path="PrivacyPolicy" element={<Privacy/>} />
          
 
           </Route>

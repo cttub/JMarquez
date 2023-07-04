@@ -15,36 +15,39 @@ const MobileNav = () => {
     setIsOpen(false);
   };
 
+  const handleNavLinkClick = () => {
+    document.querySelector("html").scrollTo(0, 0);
+    closeMenu();
+  };
+
   return (
     <div className="mobile-nav">
       {!isOpen ? (
-        <div  className="hamburger" onClick={toggleMenu}>
-          <img width="80px" src={hamburger} alt="Open Menu" />
+        <div className="hamburger" onClick={toggleMenu}>
+          <img width="36px" src={hamburger} alt="Open Menu" />
         </div>
       ) : (
-        <div>
-         
-        </div>
+        <div></div>
       )}
 
       {isOpen && (
         <Fade down>
           <div className="menu mobile">
-            <Link className="navLink mobile" onClick={closeMenu} to="/">
+            <Link className="navLink mobile" onClick={handleNavLinkClick} to="/">
               Home
             </Link>
-            <Link className="navLink mobile" onClick={closeMenu} to="/Services">
+            <Link className="navLink mobile" onClick={handleNavLinkClick} to="/Services">
               Services
             </Link>
-            <Link className="navLink mobile" onClick={closeMenu} to="/Projects">
+            <Link className="navLink mobile" onClick={handleNavLinkClick} to="/Projects">
               Projects
             </Link>
-            <Link className="navLink mobile" onClick={closeMenu} to="/Contact">
+            <Link className="navLink mobile" onClick={handleNavLinkClick} to="/Contact">
               Contact
             </Link>
-                <div className="close-button" onClick={closeMenu}>
-                <img width="40px" src={closeIcon} alt="Close Menu" />
-                </div>
+            <div className="close-button" onClick={closeMenu}>
+              <img width="40px" src={closeIcon} alt="Close Menu" />
+            </div>
           </div>
         </Fade>
       )}

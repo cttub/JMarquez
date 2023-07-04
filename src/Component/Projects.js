@@ -5,6 +5,7 @@ import ProjectBanner from './Projects/ProjectBanner';
 import Buenissimo from './Projects/Buenissimo';
 import Legacy from './Projects/Legacy';
 import Lily from './Projects/Lily';
+import Footer from './Footer';
 class Projects extends Component {
     state = {  } 
     render() { 
@@ -40,6 +41,7 @@ class Projects extends Component {
             
 
                 </div>
+                <Footer/>
             </div>
         );
     }

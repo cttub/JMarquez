@@ -9,8 +9,7 @@ class ProjectBanner extends Component {
                 <div className='col-lg-6'>
                     <h2 className = "orange-txt">See our Projects</h2>
                     <h1>Quality craftsmanship that inspires.</h1>
-                    <p>Explore a captivating showcase of our completed works, each embodying our commitment to quality, innovation, and superior craftsmanship. 
-                        Immerse yourself in the stunning visuals that highlight our expertise in transforming ideas into reality. </p>
+                    <p>Explore a captivating showcase of our completed works, each embodying our commitment to quality, innovation, and superior craftsmanship.  </p>
                         
                         <Link
                                                                 onClick={() => {

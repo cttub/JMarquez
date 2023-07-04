@@ -14,8 +14,13 @@ class Lily extends Component {
     render() { 
         return (
             <div id='project-gallery'>
-
+                
+                <div className='top-title'>
+                    <p className='title'>Lily's Play-N-Stay</p>
+                    <p>511 Main St, Belton, MO 64012</p>
+                </div>
                 <div className='project-card'>
+                    <p className='scroll-in-box'>Scroll To See More</p>
                     <div>
                         <Fade>
                         <img src={one}/>
@@ -31,7 +36,7 @@ class Lily extends Component {
                 </div>
                 <div className='bottom-title'>
                     <p className='title'>Lily's Play-N-Stay</p>
-                    <p>Short Description</p>
+                    <p>511 Main St, Belton, MO 64012</p>
                 </div>
 
             </div>

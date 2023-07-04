@@ -11,8 +11,8 @@ class Project extends Component {
                         <div>
                             <h2 className = "orange-txt">Building your vision, exceeding your expectations</h2>
                             <h1 style = {{marginBottom: "20px"}}>We get things done right</h1>
-                            <p style = {{marginBottom: "20px"}}>From concept to completion, we bring your vision to life with unwavering craftsmanship. 
-                                With a meticulous approach that begins with thorough planning and design, we carefully interpret your ideas and aspirations, translating them into tangible structures that exceed expectations. </p>
+                            <p style = {{marginBottom: "20px"}}>
+                                Our team interpret your ideas and aspirations, translating them into tangible structures that exceed expectations. </p>
                                
                                 <Link 
                                             onClick={() => {

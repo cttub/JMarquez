@@ -12,7 +12,9 @@ class Legacy extends Component {
     render() { 
         return (
             <div id='project-gallery'>
-
+            <div className='top-title'>
+                    <p className='title'>Legacy Liquor</p>
+                </div>
                 <div className='project-card'>
                     <div>
                         <Fade>
@@ -27,7 +29,6 @@ class Legacy extends Component {
                 </div>
                 <div className='bottom-title'>
                     <p className='title'>Legacy Liquor</p>
-                    <p>Short Description</p>
                 </div>
 
             </div>
