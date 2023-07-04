@@ -29,6 +29,7 @@ class Legacy extends Component {
                 </div>
                 <div className='bottom-title'>
                     <p className='title'>Legacy Liquor</p>
+                    <p>Springfield MO</p>
                 </div>
 
             </div>
