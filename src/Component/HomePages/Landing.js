@@ -36,7 +36,7 @@ class Landing extends Component {
                         </div>
                     </div></Fade>
                     
-                   <button className='blue-btn call-cta'><a href='tel:9132753090'>Call Us</a></button>
+                   <button className='blue-btn call-cta'><a href='tel:+9132753090'>Call Us</a></button>
 
 
 
