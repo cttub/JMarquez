@@ -5,7 +5,9 @@
   --orange: #E4692D;
   --blue: #01225E;
 }
-
+body{
+  overflow-x: hidden !important;
+}
 
 h1, p, subtitle, h2, button, smalltxt, h3{
    color: var(--black);
