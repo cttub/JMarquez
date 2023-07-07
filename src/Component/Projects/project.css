@@ -43,6 +43,9 @@
 .project-banner > div > a{
     margin-top: 20px; 
 }
+.facebook-block{
+    width: 47%;
+}
 #project-gallery{
     display: inline-block;
     background: rgba(255, 255, 255, 0.59);
@@ -134,7 +137,7 @@
         display: block;
         margin-bottom: 0px;
     }
-    #project-gallery{
+    #project-gallery, .facebook-block{
         display: block;
         width: 100%;
         margin-bottom: 20px;

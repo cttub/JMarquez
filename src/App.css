@@ -7,9 +7,13 @@
 }
 
 
-h1, p, subtitle, h2, button, smalltxt{
+h1, p, subtitle, h2, button, smalltxt, h3{
    color: var(--black);
    display: block;
+}
+h3{
+  font-size: 33px !important;
+  font-family: 'Montserrat', sans-serif;
 }
 h2{ 
   font-size: 23px !important;
