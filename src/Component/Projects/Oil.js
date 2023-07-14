@@ -11,7 +11,7 @@ class Oil extends Component {
         return (
             <div id='project-gallery'>
                 <div className='top-title'>
-                    <p className='title'>5 Oil Change</p>
+                    <p className='title'>Take 5 Oil Change</p>
                     <p>Lansing, Kansas</p>
                 </div>
                 <div className='project-card'>
@@ -26,7 +26,7 @@ class Oil extends Component {
 
                 </div>
                 <div className='bottom-title'>
-                    <p className='title'>5 Oil Change in Lansing</p>
+                    <p className='title'>Take 5 Oil Change</p>
                     <p>Lansing, Kansas</p>
                 </div>
 
