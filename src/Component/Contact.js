@@ -17,10 +17,8 @@ class Contact extends Component {
             <div id='contact-us'>
                  <div id="ff-compose" className='col-lg-6 col-md-12 col-sm-12'>   
                 </div>
-                
-
             </div>
-            
+           
             <Footer/>
             </>
         );
