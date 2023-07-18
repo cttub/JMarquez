@@ -36,7 +36,7 @@ class Navigation extends Component {
                                                                 to = "/Contact"> Contact
                                         </Link>
                                      
-                                        <button className='white-btn call-cta' style={{display: "inline-block", position: "absolute", zIndex: "999", right: "10px", top: "10px"}}><a href='tel:+9132753090'>Call Us</a></button>
+                                        <button className='white-btn call-cta' style={{display: "inline-block", position: "absolute", zIndex: "999", right: "10px", top: "10px"}}><a href='tel:+19132753090'>Call Us</a></button>
                                         
 
 
