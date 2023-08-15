@@ -22,6 +22,7 @@ const MobileNav = () => {
 
   return (
     <div className="mobile-nav">
+      <button className='blue-btn call-cta-mobile'><a href='tel:+9132753090'>Call Us</a></button>
       {!isOpen ? (
         <div className="hamburger" onClick={toggleMenu}>
           <img width="36px" src={hamburger} alt="Open Menu" />

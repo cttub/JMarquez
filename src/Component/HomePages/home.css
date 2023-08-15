@@ -226,12 +226,17 @@
   }
 
 }
-.call-cta > a{
+.call-cta > a, .call-cta-mobile > a{
   color: white !important;
 }
-.call-cta > a:hover{
+.call-cta > a:hover, .call-cta-mobile > a:hover{
   color: var(--blue) !important;
 }
 #project > div.project-body > div:nth-child(3) > div:nth-child(2) > div > h1{
   text-align: center !important;
+}
+@media only screen and (max-width: 640px){
+  .call-cta:not(.mobile){
+    display: none;
+  }
 }

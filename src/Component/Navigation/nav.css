@@ -73,7 +73,12 @@
     z-index: 999;
     cursor: pointer;
   }
-  
+.white-btn.call-cta > a{
+    color: var(--black) !important;
+}
+.white-btn.call-cta > a:hover{
+    color: white !important;
+}
 @media only screen and (max-width: 640px){
     #landing-navigation,  #other-nav, .link-logo{
         display: none;
@@ -81,4 +86,7 @@
     #mobile-nav{
         display: block;
     }
+}
+.call-cta-mobile{
+ 
 }

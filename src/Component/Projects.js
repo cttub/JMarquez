@@ -5,6 +5,7 @@ import ProjectBanner from './Projects/ProjectBanner';
 import Buenissimo from './Projects/Buenissimo';
 import Legacy from './Projects/Legacy';
 import Lily from './Projects/Lily';
+import Oil from './Projects/Oil';
 import Footer from './Footer';
 class Projects extends Component {
     state = {  } 
@@ -34,13 +35,13 @@ class Projects extends Component {
                     </div>
                     <div className='project-row'>
                         <Buenissimo/>
-                        <div className='facebook-block' style={{display: "flex", alignItems: "center", justifyContent: "center", padding: "50px"}}>
+                        <Oil/>
+                    </div>
+                    <div className='facebook-block'>
                             <div>
                                 <h1>Want to see more of our Projects?</h1>
                                 <button className='facebook'><a href='https://www.facebook.com/MqzConst' target='_blank'>Visit our Facebook</a></button>
                             </div>
-                        </div>
-
                     </div>
                 
                     
