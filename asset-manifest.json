@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ca31ccf.css",
-    "main.js": "/static/js/main.f7d05b54.js",
+    "main.css": "/static/css/main.e5f7f174.css",
+    "main.js": "/static/js/main.edf669ef.js",
     "static/js/787.2df68e17.chunk.js": "/static/js/787.2df68e17.chunk.js",
     "static/media/Remodel.png": "/static/media/Remodel.c0e41856ecb4ef9cb429.png",
     "static/media/Construction.png": "/static/media/Construction.5396193756eb85e7501c.png",
     "static/media/Addition.png": "/static/media/Addition.9e94724a4f768e082279.png",
     "static/media/Tennet Finish.png": "/static/media/Tennet Finish.b67c0610fa070f3c9e1c.png",
-    "static/media/4.jpg": "/static/media/4.bb4ada386f99082e167e.jpg",
+    "static/media/4.jpg": "/static/media/4.145de4220613df9e1b7e.jpg",
     "static/media/Abstract_Building.png": "/static/media/Abstract_Building.281635918f24b5fea604.png",
     "static/media/5.JPG": "/static/media/5.1675f52ac89c5ba875a7.JPG",
-    "static/media/3.jpg": "/static/media/3.9e623a38179aac30ec1b.jpg",
+    "static/media/3.jpg": "/static/media/3.19f77cc611b30881b344.jpg",
     "static/media/Painting.jpg": "/static/media/Painting.a727f01c8f4499bbaae8.jpg",
     "static/media/Woodwork.jpg": "/static/media/Woodwork.36051c7b40bb379bb8c7.jpg",
     "static/media/3.JPG": "/static/media/3.9771addfd189b30a4f9b.JPG",
@@ -22,6 +22,7 @@
     "static/media/Concrete.jpg": "/static/media/Concrete.a5d08b195f8f17ad4763.jpg",
     "static/media/1.png": "/static/media/1.8acfc52c59a3239792ae.png",
     "static/media/Demolition.jpg": "/static/media/Demolition.bc29c5ccac1991dc826b.jpg",
+    "static/media/construction-worker.jpg": "/static/media/construction-worker.17b6e4c52c1f3ccba940.jpg",
     "static/media/Ceiling.jpg": "/static/media/Ceiling.f5311b700f90a8b51c9d.jpg",
     "static/media/Framework.jpg": "/static/media/Framework.f703cf1eae8873a19a21.jpg",
     "static/media/Welding.jpg": "/static/media/Welding.ff0a6d6f0163a2c06b73.jpg",
@@ -40,10 +41,15 @@
     "static/media/5.jpeg": "/static/media/5.8822034deae68fec75e7.jpeg",
     "static/media/7.jpeg": "/static/media/7.e9e021830f018b7d66b3.jpeg",
     "static/media/6.jpeg": "/static/media/6.81734e5bdfe1f4680991.jpeg",
+    "static/media/2.jpg": "/static/media/2.de5e57a118873fc9f985.jpg",
+    "static/media/5.jpg": "/static/media/5.77d9e870a6738d5a499c.jpg",
+    "static/media/7.jpg": "/static/media/7.c71aede93fd4ac8c45de.jpg",
+    "static/media/6.jpg": "/static/media/6.014df208fe41a67715bc.jpg",
+    "static/media/Marquez House.jpg": "/static/media/Marquez House.8c41815492efd8c709c8.jpg",
+    "static/media/8.jpg": "/static/media/8.d66b71fc795c3f672857.jpg",
+    "static/media/1.jpg": "/static/media/1.0ce200b4fe52da9cbde3.jpg",
     "static/media/commercial.png": "/static/media/commercial.044649227344936caff7.png",
     "static/media/white.png": "/static/media/white.2500520ac7143cace867.png",
-    "static/media/1.jpg": "/static/media/1.0ce200b4fe52da9cbde3.jpg",
-    "static/media/2.jpg": "/static/media/2.de5e57a118873fc9f985.jpg",
     "static/media/circular.png": "/static/media/circular.654488f2924669118d7c.png",
     "static/media/residential.png": "/static/media/residential.8237ac2b19038f415c8a.png",
     "static/media/contract.png": "/static/media/contract.f0df7818b42185997de5.png",
@@ -51,12 +57,12 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "static/media/hamburger.svg": "/static/media/hamburger.0c13fb10474cfeea254dadc06282fa01.svg",
-    "main.2ca31ccf.css.map": "/static/css/main.2ca31ccf.css.map",
-    "main.f7d05b54.js.map": "/static/js/main.f7d05b54.js.map",
+    "main.e5f7f174.css.map": "/static/css/main.e5f7f174.css.map",
+    "main.edf669ef.js.map": "/static/js/main.edf669ef.js.map",
     "787.2df68e17.chunk.js.map": "/static/js/787.2df68e17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ca31ccf.css",
-    "static/js/main.f7d05b54.js"
+    "static/css/main.e5f7f174.css",
+    "static/js/main.edf669ef.js"
   ]
 }
